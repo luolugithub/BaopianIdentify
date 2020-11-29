@@ -15,6 +15,8 @@ import tensorflow as tf
 from pore_segmentation import model_builder
 from pore_segmentation import utils, helpers
 
+print("tf ver:", tf.__version__)
+
 # para for model
 class_names_list, label_values = helpers.get_label_info("../pore_segmentation/class_dict.csv")
 num_classes = len(label_values)

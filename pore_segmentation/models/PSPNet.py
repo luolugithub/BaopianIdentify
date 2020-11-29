@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.contrib import slim
 import numpy as np
-from builders import frontend_builder
+from pore_segmentation.builders import frontend_builder
 import os, sys
 
 def Upsampling(inputs,feature_map_shape):

@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.contrib import slim
-from builders import frontend_builder
+from pore_segmentation.builders import frontend_builder
 import os, sys
 
 

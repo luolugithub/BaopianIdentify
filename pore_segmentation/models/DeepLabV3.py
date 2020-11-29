@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import tensorflow as tf
-from builders import frontend_builder
+from pore_segmentation.builders import frontend_builder
 from tensorflow.contrib import slim
 
 
